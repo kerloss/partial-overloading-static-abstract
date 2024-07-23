@@ -250,51 +250,51 @@ namespace assignment_19
             //Duration D1 = new Duration(1, 10, 15);
             //Console.WriteLine(D1.ToString()); //1 Hours, 10 Minutes, 15 Seconds
 
-            Duration D1 = new Duration(3600);
-            Console.WriteLine(D1.ToString()); //1 Hours, 0 Minutes, 0 Seconds
+            //Duration D1 = new Duration(3600);
+            //Console.WriteLine(D1.ToString()); //1 Hours, 0 Minutes, 0 Seconds
 
-            Duration D2 = new Duration(7800);
-            Console.WriteLine(D2.ToString()); //2 Hours, 10 Minutes, 0 Seconds
+            //Duration D2 = new Duration(7800);
+            //Console.WriteLine(D2.ToString()); //2 Hours, 10 Minutes, 0 Seconds
 
-            Duration D3 = new Duration(666);
-            Console.WriteLine(D3.ToString()); //0 Hours, 11 Minutes, 6 Seconds
+            //Duration D3 = new Duration(666);
+            //Console.WriteLine(D3.ToString()); //0 Hours, 11 Minutes, 6 Seconds
 
-            //operator overloading
-            Duration D4 = D1 + D2;
-            Console.WriteLine($"D1 + D2 = {D4}"); //3 Hours, 10 Minutes, 0 Seconds
+            ////operator overloading
+            //Duration D4 = D1 + D2;
+            //Console.WriteLine($"D1 + D2 = {D4}"); //3 Hours, 10 Minutes, 0 Seconds
 
-            Duration D5 = D1 + 7800;
-            Console.WriteLine($"D1 + 7800 = {D5}"); //3 Hours, 10 Minutes, 0 Seconds
+            //Duration D5 = D1 + 7800;
+            //Console.WriteLine($"D1 + 7800 = {D5}"); //3 Hours, 10 Minutes, 0 Seconds
 
-            Duration D6 = 666 + D3;
-            Console.WriteLine($"666 + D3 = {D6}"); //0 Hours, 22 Minutes, 12 Seconds
+            //Duration D6 = 666 + D3;
+            //Console.WriteLine($"666 + D3 = {D6}"); //0 Hours, 22 Minutes, 12 Seconds
 
-            Duration D7 = ++D1;
-            Console.WriteLine($"++D1 = {D7}"); //1 Hours, 1 Minutes, 0 Seconds
+            //Duration D7 = ++D1;
+            //Console.WriteLine($"++D1 = {D7}"); //1 Hours, 1 Minutes, 0 Seconds
 
-            Duration D8 = --D2;
-            Console.WriteLine($"--D2 = {D8}"); //2 Hours, 9 Minutes, 0 Seconds
+            //Duration D8 = --D2;
+            //Console.WriteLine($"--D2 = {D8}"); //2 Hours, 9 Minutes, 0 Seconds
 
-            Duration D9 = D1 - D2;
-            Console.WriteLine($"D1 - D2 = {D9}"); //-1 Hours, -8 Minutes, 0 Seconds
+            //Duration D9 = D1 - D2;
+            //Console.WriteLine($"D1 - D2 = {D9}"); //-1 Hours, -8 Minutes, 0 Seconds
 
-            if (D1 > D2)
-                Console.WriteLine("D1 i greater than D2");
-            else
-                Console.WriteLine("D2 is greater that D1");
+            //if (D1 > D2)
+            //    Console.WriteLine("D1 i greater than D2");
+            //else
+            //    Console.WriteLine("D2 is greater that D1");
 
-            if (D1 <= D2)
-                Console.WriteLine("D1 is less than or equal D2");
-            else
-                Console.WriteLine("D2 is less than or equal D1");
+            //if (D1 <= D2)
+            //    Console.WriteLine("D1 is less than or equal D2");
+            //else
+            //    Console.WriteLine("D2 is less than or equal D1");
 
-            if (D1)
-                Console.WriteLine("D1 is true");
-            else
-                Console.WriteLine("D1 is false");
+            //if (D1)
+            //    Console.WriteLine("D1 is true");
+            //else
+            //    Console.WriteLine("D1 is false");
 
-            DateTime dateTime = (DateTime)D1;
-            Console.WriteLine($"DateTime = {dateTime}");
+            //DateTime dateTime = (DateTime)D1;
+            //Console.WriteLine($"DateTime = {dateTime}");
             #endregion
 
         }
